@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <!-- Font Awesom Icon -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ===================== -->
+    <!-- START SIGN UP SECTION -->
+    <!-- ===================== -->
+    <section id="signUpSec" class="py-5 my-5 w-50 mx-auto d-none">
+        <div class="container px-5 text-center text-white">
+            <h1>Smart Login System</h1>
+            <form>
+                <input class="form-control my-3" type="text" name="name" id="uName" placeholder="Enter Your Name">
+                <input class="form-control mb-3" type="email" name="email" id="uEmail" placeholder="Enter Your Email">
+                <input class="form-control mb-4" type="password" name="password" id="uPassword"
+                    placeholder="Enter Password">
+                <div class="message" id="messageSignUp"></div>
+                <button id="signUpBut" class="col-12 btn btn-outline-light mt-4 mb-3" type="button">Sign Up</button>
+                <p>You have an account? <span>Signin</span></p>
+            </form>
+        </div>
+    </section>
+    <!-- END SIGN UP SECTION -->
+
+    <!-- ===================== -->
+    <!-- START SIGN IN SECTION -->
+    <!-- ===================== -->
+    <section id="signInSec" class="py-5 my-5 w-50 mx-auto">
+        <div class="container px-5 text-center">
+            <h1>Smart Login System</h1>
+            <form>
+                <input class="form-control my-3" type="email" name="email" id="emailUse" placeholder="Enter Your Email">
+                <input class="form-control mb-4" type="password" name="password" id="passwordUse"
+                    placeholder="Enter Your Password">
+                <div class="message" id="messageLogin"></div>
+                <button id="signInBut" class="col-12 btn btn-outline-light mt-4 mb-3" type="button">Login</button>
+                <p class="text-white">Don’t have an account?<span>Sign Up</span></p>
+            </form>
+        </div>
+    </section>
+    <!-- END SIGN IN SECTION -->
+
+    <!-- ===================== -->
+    <!-- START HOME PAGE SECTION -->
+    <!-- ===================== -->
+    <section class="d-none" id="homePage">
+        <nav>
+            <div class="container py-4 px-5 d-flex justify-content-between align-items-center">
+                <h5 class="text-uppercase text-white">SMART LOGIN</h5>
+                <div>
+                    <button id="LogOutBut" class="btn btn-outline-light text-secondary me-2">Logout</button>
+                    <button id="removeUser" class="btn btn-outline-light text-secondary">Remove All User</button>
+                </div>
+            </div>
+        </nav>
+        <div id="hpContent" class="container d-flex justify-content-center align-items-center">
+            <div id="innerBox" class="box w-50"></div>
+        </div>
+    </section>
+    <!-- END HOME PAGE SECTION -->
+
+
+    <!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+:root {
+    --main-color: #24353F
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+p {
+    margin: 0px;
+}
+/* ===================================================================== */
+/* ============================= (SIGN UP) ============================= */
+/* ============================= (SIGN IN) ============================= */
+/* ===================================================================== */
+#signUpSec,
+#signInSec {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#signUpSec h1,
+#signInSec h1 {
+    color: #17A2B8;
+}
+
+#signUpSec input,
+#signInSec input {
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    color: #fff;
+}
+
+#signUpSec input::placeholder,
+#signInSec input::placeholder {
+    color: #ced4da;
+}
+
+#signUpSec input:focus,
+#signInSec input:focus {
+    border-color: #17A2B8;
+    box-shadow: none;
+}
+
+#signUpSec .btn,
+#signInSec .btn {
+    color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+#signUpSec .btn:hover,
+#signInSec .btn:hover {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+#signUpSec p span,
+#signInSec p span {
+    cursor: pointer;
+}
+
+#signUpSec p span:hover,
+#signInSec p span:hover {
+    text-decoration: underline !important;
+}
+/* ===================================================================== */
+/* ============================ (HOME PAGE) ============================ */
+/* ===================================================================== */
+#homePage,
+.box {
+    background-color: #24353F;
+}
+
+#homePage nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#hpContent {
+    height: 85vh;
+}
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+#hpContent .box h2 {
+    color: #17A2B8;
+}
